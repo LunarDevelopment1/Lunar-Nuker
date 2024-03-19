@@ -48,7 +48,7 @@ pkg update -y && pkg upgrade -y && pkg install python git && git clone https://g
 ## 🤔 Usage
 
 ### Normal Usage
-- Use `python Radium.py` or run it manually by double click
+- Use `python Lunar.py` or run it manually by double click
  
 
 ## ⚠ Disclaimer
