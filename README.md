@@ -39,7 +39,7 @@ pip install -r requirements.txt; python main.python
 ### Termux
 - Here is the one line command for Installation:
 ```shell
-pkg update -y && pkg upgrade -y && pkg install python git && git clone https://github.com/LunarDevelopment1/Lunar-Nuker && cd Lunar-Nuker && pip install -r requirements.txt && python Lunar.py
+pkg update -y && pkg upgrade -y && pkg install python git && git clone https://github.com/LunarDevelopment1/Lunar-Nuker && cd Lunar-Nuker1 && pip install -r requirements.txt && python Lunar.py
 ```
 - Just copy and paste it in your Termux's shell
 
