@@ -1,17 +1,6 @@
-# 💀 Radium Discord Nuker 💀
+# 💀 Lunar Discord Nuker 💀
 
 
-<p align="center">
- <img src="https://img.shields.io/github/last-commit/voidfy69/Radium-Nuker?color=blue&style=flat-square" </a>
- <img src="https://img.shields.io/github/stars/voidfy69/Radium-Nuker?color=blue&label=Stars&style=flat-square" </a>
- <img src="https://img.shields.io/github/forks/voidfy69/Radium-Nuker?color=blue&label=Forks&style=flat-square" </a>
-</p>
-
-<p align="center">
-[<a href="https://github.com/voidfy69/Radium-Nuker/#installation"> How to install</a> ] - 
-[<a href="https://github.com/voidfy69/Radium-Nuker/#Screenshots"> Screenshots</a> ]
-
-</p>
 
 ### *Features :*
 > - [x] *Spam in all channels*
@@ -50,7 +39,7 @@ pip install -r requirements.txt; python main.python
 ### Termux
 - Here is the one line command for Installation:
 ```shell
-pkg update -y && pkg upgrade -y && pkg install python git && git clone https://github.com/voidfy69/Radium-Nuker && cd Radium-Nuker && pip install -r requirements.txt && python Radium.py
+pkg update -y && pkg upgrade -y && pkg install python git && git clone https://github.com/LunarDevelopment1/Lunar-Nuker && cd Lunar-Nuker && pip install -r requirements.txt && python Lunar.py
 ```
 - Just copy and paste it in your Termux's shell
 
@@ -60,48 +49,10 @@ pkg update -y && pkg upgrade -y && pkg install python git && git clone https://g
 
 ### Normal Usage
 - Use `python Radium.py` or run it manually by double click
-
-### Using Sessions
-
- - Create a [Session](https://github.com/voidfy69/Radium-Nuker/#sessions) file and then run `python main.py <your session>`
-
-```bash
-python Radium.py session.json
-```
-
-
-## Sessions
-### What is Sessions?
-if you're Too lazy to copy and paste the same token every time; create a Session file insted and run the code with the session file. 
-
-- Create a `.json` file in root folder or somewhere and then paste the text bellow on it 
-
-```json
-{
-    "Token": "Your Token",
-    "SpamTexts": ["Some Texts", "For Spam"],
-    "SpamAmount": 50,
-    "ServerName": "Lucifer Nuked this Guild Bruh!",
-    "SpamInviteLink": "discord.gg/eternalsop"
-}
-```
-
-`Token`: Your nuker bot's token
-
-`Spam Texts`: Some Texts for sending in spam messages
-
-`SpamAmount`: The number of channels and roles to be created and the number of messages to be sent
-
-`ServerName`: A name to change the main name of the server
-
-`SpamInviteLink`: Your server invite link that you want to spam it
-
-## 📸 Screenshots
-
-<img src="Screenshots/Screenshot1.png">
+ 
 
 ## ⚠ Disclaimer
 
-This script is educational and fully coded by Lucifer. logique aka @jodz.xin in discord
+This script is educational and fully coded by Iceyy. logique aka @.crorepatti in discord
 if you choose to abuse this tool it's are your fault. logique will not accept anything about you're mistake
-# Radium-Nuker
+# Lunar-Nuker
