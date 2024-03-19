@@ -136,7 +136,7 @@ async def main(token: str, guild_id):
     print(Colorate.Vertical(Colors.DynamicMIX((Col.light_red, Col.red)), menu))
     num = lambda n: "0"+n if len(n) != 2 else n
     pu, re, bl, pi, ye, gr = Col.red, Col.purple, Col.pink, Col.blue, Fore.GREEN, Fore.YELLOW
-    choice = Funcs.get_input(f"{Col.grassy_green}+-?{re}[{palette.orange}${re}] {Col.blue}{info['user']['username']}{palette.red}@{ye}{info['guild']['name']}\n{Col.orange}+----?{palette.grey} >>{palette.better_purpule} Choose: {Fore.CYAN}", checker=lambda x: x.isnumeric() and int(x) != 0 and int(x) <= 19)
+    choice = Funcs.get_input(f"{Col.green}+-?{re}[{palette.orange}${re}] {Col.blue}{info['user']['username']}{palette.red}@{ye}{info['guild']['name']}\n{Col.orange}+----?{palette.grey} >>{palette.better_purpule} Choose: {Fore.CYAN}", checker=lambda x: x.isnumeric() and int(x) != 0 and int(x) <= 19)
     choice = num(choice)
 
     print()
